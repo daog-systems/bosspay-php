@@ -1,6 +1,8 @@
 <?php
 
-class Bosspay {
+namespace Bosspay;
+
+class Client {
 
   var $url;
 
