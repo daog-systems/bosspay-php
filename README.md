@@ -53,6 +53,14 @@ Once payment is received, we'll POST data to your custom webhook URL with the pa
 {"id":"xxx","user_id":"xxx","reference_no":"663993e2a914f"}
 ```
 
+## Installation
+
+Install via composer
+
+```
+> composer require daog-systems/bosspay-api
+```
+
 ## Usage
 
 ```
