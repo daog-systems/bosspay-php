@@ -1,6 +1,6 @@
 <?php
 
-include_once('bosspay.php');
+include_once('src/bosspay.php');
 
 // Sample
 $client = new Bosspay();
