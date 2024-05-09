@@ -58,7 +58,7 @@ Once payment is received, we'll POST data to your custom webhook URL with the pa
 Install via composer
 
 ```
-> composer require daog-systems/bosspay-api
+> composer require daog-systems/bosspay-php
 ```
 
 ## Usage

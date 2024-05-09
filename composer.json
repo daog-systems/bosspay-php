@@ -1,5 +1,5 @@
 {
-    "name": "daog-systems/bosspay-api",
+    "name": "daog-systems/bosspay-php",
     "autoload": {
         "psr-4": {
             "Bosspay\\": "src/"
