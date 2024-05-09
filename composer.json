@@ -1,0 +1,15 @@
+{
+    "name": "daog-systems/bosspay-api",
+    "autoload": {
+        "psr-4": {
+            "DaogSystems\\BosspayApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daog",
+            "email": "info@daog.cc"
+        }
+    ],
+    "require": {}
+}
