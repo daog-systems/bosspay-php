@@ -2,7 +2,7 @@
     "name": "daog-systems/bosspay-api",
     "autoload": {
         "psr-4": {
-            "BosspayApi\\": "src/"
+            "Bosspay\\": "src/"
         }
     },
     "authors": [
