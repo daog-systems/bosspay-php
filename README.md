@@ -65,11 +65,10 @@ Install via composer
 
 ```
 <?php
-
-include_once('bosspay.php');
+require 'vendor/autoload.php';
 
 // Sample
-$client = new Bosspay();
+$client = new Bosspay\Client();
 $client->init('http://localhost:8888/daog-systems/bosspay');
 $response = $client->login('a', 'a');
 $token = $response->token;
