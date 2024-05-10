@@ -1,4 +1,4 @@
-# bosspay-api
+# bosspay-php
 
 
 
