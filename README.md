@@ -69,7 +69,7 @@ require 'vendor/autoload.php';
 
 // Sample
 $client = new Bosspay\Client();
-$client->init('http://localhost:8888/daog-systems/bosspay');
+$client->init('https://bosspay.gambolinc.com');
 $response = $client->login('a', 'a');
 $token = $response->token;
 
