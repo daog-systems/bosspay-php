@@ -19,8 +19,8 @@ class Client {
     return json_decode($this->post($this->url . '/api/login', $data));
   }
 
-  function cash_in($token, $amount) {
-    $data = array('token' => $token, 'amount' => $amount);
+  function cash_in($token, $amount, $reference_no) {
+    $data = array('token' => $token, 'amount' => $amount, 'reference_no' => $reference_no);
     return json_decode($this->post($this->url . '/api/cash_in', $data));
   }
   
